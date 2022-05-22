@@ -1,0 +1,97 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.login_main {
+    margin-top: 10px;
+    display: flex;
+    margin-left: -65px;
+}
+
+.login_rightcomponent {
+    margin-top: 25px;
+    padding-bottom: 25px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.login_logo {
+    width: 175px;
+    margin-top: 25px;
+}
+
+.login_signin{
+    margin-top: 25px;
+}
+
+
+
+.login_or_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login_divider{
+    width: 80px;
+    height: 0px;
+    border: 1px solid #DBDBDB;
+    margin-top: 10px;
+}
+
+.login_or{
+    margin: 0px 25px;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+.login_fb{
+    color: #395185;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.login_password{
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.login_signupoption{
+    height: 56px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    background-color: #FFF;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login_signup{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.login_signin{
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.login_downloadSection{
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login_option{
+    margin-top: 20px;
+}
+
+.login_dwimg{
+    margin-right: 10px;
+}
