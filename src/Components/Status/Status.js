@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Status.css";
 import Avatar from "@material-ui/core/Avatar";
 import statusImg from "../../images/pp1.png";
+import uploadImage from '../../images/statusadd.png'
 
 const Status = () => {
   const [statusList, setStatusList] = useState([]);
@@ -64,6 +65,7 @@ const Status = () => {
   return (
     <>
       <div className="status_container">
+        <img src={uploadImage} className="status_uploadimg" width="55px" height="55px"></img>
         {statusList.map((status, index) => {
           return (
             <div className="status">
